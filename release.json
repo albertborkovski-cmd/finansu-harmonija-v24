@@ -1,0 +1,813 @@
+{
+  "version": "24.0.0",
+  "releaseDate": "2026-11-18",
+  "sourceCommit": "ebfabc7defe5655a786d14c7f42b934705f2f7ff",
+  "sourceTag": "v24",
+  "sourceOrigin": "Latest V24 snapshot: OCR workflows, notifications and five-item priority dashboard, SaaS administration and client plan selection, profile integrations, document previews, debt details, table layout and accessibility improvements.",
+  "sourceArchive": "source-v24.zip",
+  "sourceArchiveSha256": "f90a45a194cc9027035b20f505cd1da61e3f075470128516edc61926c6380cb1",
+  "sourceFileCount": 674,
+  "checks": {
+    "typecheck": "passed",
+    "build": "passed; empty envDir and no VITE environment variables",
+    "targetedTests": {
+      "total": 144,
+      "passed": 144,
+      "failed": 0
+    },
+    "fullTests": {
+      "total": 1651,
+      "passed": 1572,
+      "failed": 79,
+      "notes": [
+        "Full-suite failures are recorded, not counted as passing. Detailed TAP output is retained with local release evidence."
+      ],
+      "failures": [
+        "editor separates immutable bank facts from editable matching data with an explicit non-algorithm preview",
+        "Bank status uses the shared portalled dropdown and the editor shows the same independent status",
+        "Bank toolbar uses the system plus action and opens the existing editor in create mode",
+        "statement action uses system design and opens a reviewable import, not IMPORTDATA history",
+        "bank save rechecks access, company, deletion, state, stale data and immutable source text",
+        "company chart shares the template title, back button, breadcrumbs and toolbar layout with Settings",
+        "account editor uses company-scoped cost center sources and keeps usage flags out of shared template editing",
+        "Payments navigation and New payment use a separate system screen with required controls",
+        "both Manage company entry points embed the existing company-scoped counterparties register",
+        "tests/delete-buttons-lifecycle.test.mjs",
+        "Actions opens a system confirmation for both imported documents and manual invoices",
+        "company document header omits Upload document without removing the existing import action",
+        "document information panel contains the upload guidance and the existing Dashboard ADDINFO shortcut",
+        "list separates selected-document transfer from file export and refreshes scope and rights at action time",
+        "export retains the centered system-choice dialog and existing down-arrow design; import still opens uploads",
+        "text and select edits opt into the same frame without changing permissions or other screens",
+        "text edit retains its exact width and height when the input replaces its display",
+        "UI replaces Report issue only in issue editing and keeps the Document issues route mounted",
+        "both accountant entry points and worker queue are wired, and transfer history is recorded only after a successful guarded write",
+        "company and global Documents use the full saved Document Number, including series and leading zeroes",
+        "list, status filter, create and copy use shared processing states without changing historical data",
+        "row uses the detail Storno form, a single final contextual icon, and equal header/row action widths",
+        "register has one-click Reversed filter, read-only derived status and original-plus-Storno amount presentation",
+        "examples test allocation counts independently of product counts and keep protected states locked",
+        "tests/document-type-navigation.test.mjs",
+        "new logins and reloaded sessions deny deactivated external users, including the demo persona",
+        "tests/financial-statement-language.test.mjs",
+        "journal toolbar keeps column grouping while removing the requested controls",
+        "VAT closing is period-only; email controls belong to the separate reconciliation action",
+        "GL account bulk selection is opt-in, respects search and does not close the menu",
+        "opening from the journal cannot bypass approval, posted-operation or company boundaries",
+        "global Documents has Edit, Delete and ellipsis; issue reporting is in the menu and row Send is absent",
+        "global Delete does not expose accounting corrections and respects approval / access restrictions",
+        "deleted global documents replace Delete with Restore and disable other row actions",
+        "company Documents hides report/send and always displays Delete, disabled for confirmed documents",
+        "the separate Invoices views retain their existing full actions",
+        "global register returns all accessible companies, not the current company",
+        "company register retains company-only scope and global Invoices retains classification",
+        "the global register opens the existing company-scoped form without navigating or resetting selection",
+        "credit selector uses the system dropdown, company-scoped load, and appears only for credit invoices",
+        "rendered totals contain one main summary and only a foreign-currency extra total",
+        "additional and attachments start collapsed, with one notes field, sales-only fields and preview controls",
+        "Invoice lines uses one editable table without Summary / Quantity switches and keeps existing controls",
+        "Split uses a compact aligned table with a fixed allocation column for any number of lines",
+        "Documents row and both editor Actions route credit notes directly to the shared invoice form",
+        "invoice header has a system status dropdown and save label follows the selected status",
+        "Invoices owns creation UI; the shared Documents register retains classification and access filtering",
+        "Create invoice uses the shared system Back button and preserves save-time disabling",
+        "Accounting defaults starts expanded and contains only the four requested system fields",
+        "dashboard upload, summary cards and company action labels have Lithuanian translations",
+        "status labels are separate from actions, preserve custom values and never mutate stored data",
+        "language preference persists independently and round-trips without record writes",
+        "company overview translates every chart, VAT label, month and helper",
+        "reconciliation localizes enums and notices but preserves document and payment data",
+        "warehouse stock labels, choices and validation messages translate without changing record values",
+        "ADDINFO shortcut help is translated and retains both keyboard combinations",
+        "tests/notification-details-panel.test.mjs",
+        "tests/ocr-document-delivery.test.mjs",
+        "reported issues have a separate Workspace route and system breadcrumb, not an approval panel",
+        "read-only workflow reuses document extraction layout and guards writes and work-time logging",
+        "competing values are attached to their own learning record with supplier and field context",
+        "help is an icon-only Dashboard-style popup and the worker queue shortcut is removed",
+        "single-company sidebar has no All organizations control and retains selection",
+        "OCR and company menus use Uploaded document without changing their route identifiers",
+        "settings tabs preserve the mounted digitization form and use the organization ID for both lists",
+        "the three system tabs are visible only for an organization, not for an unrelated counterparty",
+        "notification session remains stable on unrelated renders and re-resolves changed access",
+        "tests/reconciliation-gl-dialog.test.mjs",
+        "linked rows label each document side without inventing GL account codes",
+        "tests/related-object-link.test.mjs",
+        "different records with identical labels stay independently selectable",
+        "navigation is administrator-only and profile reuses company layout without company identity",
+        "Status and OCR status use the shared system connector and keep independent navigation",
+        "organization dialog groups five company settings with shared dropdowns and one action row",
+        "OCR statuses use document-type navigation with a separate substatus list",
+        "tests/task-permissions.test.mjs",
+        "Uploaded documents shows all OCR states by default, including older processed and approved documents",
+        "group and substatus filters narrow all-status register without changing records",
+        "explicit date, organization and search filters still apply to completed documents"
+      ]
+    },
+    "browser": "Public deployment and local V25 startup checked separately; not a complete UI regression test."
+  },
+  "limitations": [
+    "Frontend demonstration only; no secure backend authentication or shared production database.",
+    "Bank connection, payment sending, accounting transfer, OCR and email APIs are not connected.",
+    "Local .env, shared-data files, credentials and node_modules are excluded.",
+    "Pages versions on the same domain may share browser storage; use a separate browser profile for isolated testing."
+  ],
+  "artifacts": [
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/AdministrationView-Dc50bDTz.js",
+      "sha256": "cff92f01ce5518a32fc7c6eca9b5610be0612a464c5ab34185ce01e67d72b1e9"
+    },
+    {
+      "path": "assets/AdministratorSettings-BJx73iok.js",
+      "sha256": "b9c64d8c7ab78ec8652231f30c1e695609f04a16097ed03a0c0e0e12e0e5c25f"
+    },
+    {
+      "path": "assets/AutomationProcessDetailView-Dcs5oVD_.js",
+      "sha256": "ed25e7d6fd409e131929fc48e86d8c13deae6e97611d58ab9048f18b79db2d53"
+    },
+    {
+      "path": "assets/AutomationSecurityAccessView-K-bKwKMI.js",
+      "sha256": "18b4c42d13e25dc03faca009b710972c738c72cd1d9b385356bfe2b19df19452"
+    },
+    {
+      "path": "assets/CashControls-FbAfSt6N.js",
+      "sha256": "427ef066878053f3c6d0c09d4ea1c2d8032592dffe3330b40e4b50a68045e44d"
+    },
+    {
+      "path": "assets/ChatsView-CxxA_MjJ.js",
+      "sha256": "a8a1f23aa651d3aed7caddc90f3a096db93b860af83d5c26fcaf71e3be8535e6"
+    },
+    {
+      "path": "assets/ColumnSettingsPanel-JXB6fmHF.js",
+      "sha256": "ee7a4dfc21d634ab4b81fa752a0cfe186e6992ce8164003b48f993cf599e7cad"
+    },
+    {
+      "path": "assets/Companies-BTAJiNqi.js",
+      "sha256": "9d2ae7dcf4237da68e136809fe90a43b5a89e63b9d577726161bb2319e346cbc"
+    },
+    {
+      "path": "assets/CompanyActionHistoryView-_7oZPM3N.js",
+      "sha256": "704832d614860938da6e9a82f3d417ff9036854651c0527e6a2d964a1bb19a34"
+    },
+    {
+      "path": "assets/CompanyBreadcrumb-Dns21f5o.js",
+      "sha256": "3e45edcde88fb00262b91818cef75a43383ae8427ea680a73bceb226d5f1dc53"
+    },
+    {
+      "path": "assets/CompanyCashView-rBgzi7Cg.js",
+      "sha256": "f52a8d6767468340d1720eeb442cbb6127810a5da6393876a93ab6b069bcbf14"
+    },
+    {
+      "path": "assets/CompanyDetail-DgDpHTlZ.js",
+      "sha256": "02f1e128f44517f40cdc118a306a6725698cd8b82a82b329ba76ee05f05ba470"
+    },
+    {
+      "path": "assets/CompanyFixedAssetsView-0yyluhI1.js",
+      "sha256": "7192d2cf2ad6ee3023a1615cae72987b7f2ef73d5109fa91f97026c531ca3ff2"
+    },
+    {
+      "path": "assets/CompanyWarehouseView-I5U1cIK0.js",
+      "sha256": "e1acc8beba94fba744c0e2a0fc10293f14a3cd7e39590afdfa49c4de5115bdc6"
+    },
+    {
+      "path": "assets/Dashboard-lMpa5qwK.js",
+      "sha256": "b8b149b4c714a46603394f80d5d6ec5b412b70fa3d3e14d74c45e5addcc8e750"
+    },
+    {
+      "path": "assets/DebtLinkedDocumentView-BOTMs50b.js",
+      "sha256": "4a40f98cffcca6b76fa6495abf37a4d878962f33f6a1e448bd3b59cc892e32ec"
+    },
+    {
+      "path": "assets/DebtReconciliationPortalView-jfp-bW4u.js",
+      "sha256": "fa290113d8b02fadec52144af5fd7fa28204ace5f8ee9796d688e11893c8d29b"
+    },
+    {
+      "path": "assets/DeleteButtons-BmB2m8Z1.js",
+      "sha256": "419ecbb54048489e1b17207a4759e40a7d51445c09860c6a675dea807dc3cec0"
+    },
+    {
+      "path": "assets/DocumentIssueConversation-DO29ff-6.js",
+      "sha256": "f50c250ebcf1db03f2d9e100c507815fdf02d3aefd29faff74acfbf113fb7f9a"
+    },
+    {
+      "path": "assets/DocumentIssueQueue-C-ACuHSI.js",
+      "sha256": "6833e1decddfd2ca633e8fec00131eb81500d2498dfaf996313232afc8f00fda"
+    },
+    {
+      "path": "assets/Documents-Bd8gfWjn.js",
+      "sha256": "23ca497122bb0610a54ffdb6a43e0337abbbc8fccc2133bac6dc4c3991d374bf"
+    },
+    {
+      "path": "assets/ExchangeRatesView-kcLfIhbO.js",
+      "sha256": "6a34bbf9e74c235b2a97061f270c7b33582947c7b2061e6fb013ef36674ad643"
+    },
+    {
+      "path": "assets/FinancialStatementItemsView-B4bNYwri.js",
+      "sha256": "5ce2b7f09567e2f9c482136182bdb68e14056873d376baa19f4070a091d34865"
+    },
+    {
+      "path": "assets/GeneralLedgerView-D_FXc3RY.js",
+      "sha256": "fc3e4e7736230a908fc67b9bf59fafe2562a77a97f949a3f9f89e779372d42b0"
+    },
+    {
+      "path": "assets/GlJournalDialog-vY-ygcUT.js",
+      "sha256": "d87fee69e8dfe9c2892103841d3cc35d3d4ca649298ed928e996d63e14d19bd1"
+    },
+    {
+      "path": "assets/HelpFaqView-Pb9ojIxD.js",
+      "sha256": "fc59614913e3b669c33aaac701a73f81053b958d1ca2bfea3d3856385ae9615b"
+    },
+    {
+      "path": "assets/HorizontalTableScrollbar-BzEtCO9_.js",
+      "sha256": "618ccd008571705aa90218f5df1d29e24edb0a176835c842d522b0f7accc70d6"
+    },
+    {
+      "path": "assets/ImportButton-CboCOVEZ.js",
+      "sha256": "c6298b5c2508baace613df1ddab2c078c859dd6cee3f1f261f6a7d66f3eb419a"
+    },
+    {
+      "path": "assets/MultiSelectField-HJKLsUg-.js",
+      "sha256": "8e42555316ae06de7bba44c11d1760877127ff2a18efaf20ae838142e19c1b9f"
+    },
+    {
+      "path": "assets/OcrBreadcrumb-DDWDNXS3.js",
+      "sha256": "8d3bfe131017aaadbfac6b587e26da9295f14cda20ae01bc787e691539d2f1c6"
+    },
+    {
+      "path": "assets/OcrChatsView-B1EtsWA4.js",
+      "sha256": "cfe96e997ce37422e1e897e107ec36247d81d6a43002add9b4e01f581a082096"
+    },
+    {
+      "path": "assets/OcrDocumentIssuesView-D1YEa4ZM.js",
+      "sha256": "9fe95bc8d010903ed355c685663804137025b993f88c774af10692686b80d620"
+    },
+    {
+      "path": "assets/OcrDocumentStatusDetails-Cxy7tvly.js",
+      "sha256": "06ec3fcb98043ba74a3e4e93f3c4a3512450349cf5e98fbd5a9248c0a7c764e4"
+    },
+    {
+      "path": "assets/OcrLearningDocumentView-BLlGYc1w.js",
+      "sha256": "279fd8835e763cae48317408ca225d07a4abcb1d74a0642e73015600d6629203"
+    },
+    {
+      "path": "assets/OcrMachineLearningView-C-43i7sh.js",
+      "sha256": "b61e1a39a8bca5d61b5ba61219cf3bfedace6f92a51d9585a0e1eb6fb9f6fcca"
+    },
+    {
+      "path": "assets/OcrMyTasksView-Bejznsd5.js",
+      "sha256": "eb863f934fde80e8a37cbd20e644d5d0881a0b4ab2532014f4bd28b4858593df"
+    },
+    {
+      "path": "assets/OcrProcessedDocumentsView-DVN4HxSQ.js",
+      "sha256": "456a935d0b203222832dac5cd93e4faaf2db5287a8668a8e3db8609bc761d535"
+    },
+    {
+      "path": "assets/OcrReviewView-fAN9y3-1.js",
+      "sha256": "c26317c8419f93304483bddad0f67c56830af069631395b6f6e7ba3b5c092733"
+    },
+    {
+      "path": "assets/OcrSearchField-BnRzlVdV.js",
+      "sha256": "d250fa70ee51bcdd13c3e95afde5d9ebada7bb22598b7d0681655dd6b1b377c5"
+    },
+    {
+      "path": "assets/OcrStatusSettingsView-AIhdRpdx.js",
+      "sha256": "2f211711f5e27a8553b36176157439097eb22aec45fa51c36f768a878d27c47d"
+    },
+    {
+      "path": "assets/OcrView-CB6UbC7j.js",
+      "sha256": "7102d51fa41406018ffe66ce58adb1988347962f9c4325bfc7e4f8564ecf41a0"
+    },
+    {
+      "path": "assets/OperationDateValidationView-C46U4WKF.js",
+      "sha256": "12a9ccf8ff7e85cbc6a1ca1876b31574588bfba9fdd72b955fb19fc8536c2f37"
+    },
+    {
+      "path": "assets/OrganizationEmailSettingsView-PSU5jXVf.js",
+      "sha256": "7e3d423736f8d000d0a48154db67b13698a8a9a9b747be97bc886e809850d343"
+    },
+    {
+      "path": "assets/OrganizationReferenceValuesView-Bj6mmZ72.js",
+      "sha256": "e5f4bfdce5635cd8831555a0a5f897edc0b88b322dd50e9da79b94f57ceb1cae"
+    },
+    {
+      "path": "assets/OrganizationRequiredActionsView-C0j5nG7w.js",
+      "sha256": "cdc94f330ca99a6c8dda2dcf6462e422c59aaeedca891515147e36813b231d33"
+    },
+    {
+      "path": "assets/OrganizationSetupIntegration-CxG31G5v.js",
+      "sha256": "5317018392a32172f8d5b1ea6fedb7d58059396e76f071597fa155e8de8d9a70"
+    },
+    {
+      "path": "assets/ProfileSettings-CSVzHkvi.js",
+      "sha256": "ec8a4c65708a7c3212b4ef6d59162027a9a75d9f43f2171c7fa46dbf9ca67884"
+    },
+    {
+      "path": "assets/RefreshAllButton-HGPAG8YM.js",
+      "sha256": "1b5a1fa6b122afce6aaf11f711047ad1364a71e384c1fc9bb7b9385a838f718c"
+    },
+    {
+      "path": "assets/ResourceSecurityAccessView-azljs7EL.js",
+      "sha256": "8abb5a13e9de71dcefbda496e88a9ca199ec7c34ec9d24aae15cf91045adeced"
+    },
+    {
+      "path": "assets/SaasAdministration-CoUkSRhX.js",
+      "sha256": "80f2e5f606649030e020593881360c5815d2a430704d32bf84738a91d42d61fc"
+    },
+    {
+      "path": "assets/SaasPlanUsageCard-CdtWGsr9.js",
+      "sha256": "d75db8d6a6e07f607f4c6e393fc55eab195c7bdc64336496cbacfd4ffeeeeb43"
+    },
+    {
+      "path": "assets/ScheduleDatePicker-CvD5X7ux.js",
+      "sha256": "c16ed8682c98adc890b637f7790d8527338efde7c8bd3f8627fc4f85ae4aef45"
+    },
+    {
+      "path": "assets/SettingsIdentityManagementView-D-F2Yb1k.js",
+      "sha256": "e5083de52ebdfb7e6ced9f3a47e4b51421f88557a3d41cbc767a9913d991054e"
+    },
+    {
+      "path": "assets/SettingsOrganizationsView-UgsivOjk.js",
+      "sha256": "8738dc63413fa5f9745b15488615af322ab3a7190bb545b37c39ab1eef65930c"
+    },
+    {
+      "path": "assets/SettingsUserAnalyticsView-DJ-_RGkm.js",
+      "sha256": "cb3f2fbdcc6171c99a154349fc6f5e2e6f4d9fda6b3e436df845cbaed17fe157"
+    },
+    {
+      "path": "assets/SystemNavigation-CY7nGPbg.js",
+      "sha256": "41d1ebc33a99ef77c5eb1ddb75783c9e702756c6f8b9793478f98b5bb5baf488"
+    },
+    {
+      "path": "assets/TablePagination-DpD13thp.js",
+      "sha256": "c74f0593b27a7725117f520da149963043fb1d5252b43e95a879d34f8826581b"
+    },
+    {
+      "path": "assets/UploadedDocumentsView-FyvXi4Xe.js",
+      "sha256": "7dfcdd6205493a0f3805063a443fc89de281daf1e137d748fe8cdffc46c67fb3"
+    },
+    {
+      "path": "assets/VatClassificationsView-1G9mbRDA.js",
+      "sha256": "2bf10c6d91dff23c61ad28cab0c163827faad37fb19e77fd0c9644c647d76726"
+    },
+    {
+      "path": "assets/WarehouseTable-9pocGTuX.js",
+      "sha256": "8328c8d12d1ee91a705b23a738acd72b1f1dc9f3aac5e97138db4f985504d4d0"
+    },
+    {
+      "path": "assets/WorkspaceView-BadZVVGS.js",
+      "sha256": "88e1a6ed01700f6c9819f2e119d5da77077f0ea1491202fe46437d94cabcb41a"
+    },
+    {
+      "path": "assets/advanceEmployeeAccounting-BlCV6QHk.js",
+      "sha256": "6a554e8ad7ff11afc3bdeb36561e6a109b49b3fd851e18da1ee2319775209753"
+    },
+    {
+      "path": "assets/advanceEmployeeExamples-D__9gXnd.js",
+      "sha256": "549ca5ebe1ad1aef8a5365b3cda67875b5fe20ea96f661ee250b9417a9ccce34"
+    },
+    {
+      "path": "assets/alert-triangle-DTDiH1Y9.js",
+      "sha256": "e62748f54b3bfdbcdf54e090e86ba8ac6dbe85d85836cf976d146a510c58d309"
+    },
+    {
+      "path": "assets/archive-CAaTnAXD.js",
+      "sha256": "77ae9eff15dbefd47ea1c04f2469012181632f506dfb6463671168bf802325fe"
+    },
+    {
+      "path": "assets/automationRunsStore-C3xkrAf1.js",
+      "sha256": "49b1bd01dca1bf006439d413bd1348ce5df918d309eee4eacdfaf4d7a287b260"
+    },
+    {
+      "path": "assets/bankProcessingStatus-D-85OGlM.js",
+      "sha256": "1ed5d4dd03a8b0ddc38e0ae35282405da43a2d3882d00e26464bf8758cc17852"
+    },
+    {
+      "path": "assets/bankStatementImport-CtXwVOyR.js",
+      "sha256": "5f154af52b849496545d60a4977a92f2670cf97ce166c2441224fd9bc2245bbb"
+    },
+    {
+      "path": "assets/bankTransaction-CZ__23Pq.js",
+      "sha256": "42b2c04c5e440b6f8df4a6231c5f9d5dfe1c12b1a10b3261d06eb5121241bc10"
+    },
+    {
+      "path": "assets/bankTransactionCreation-BYvsrCfA.js",
+      "sha256": "4d8be7f7c3ae23253d009f86a18221888c6d56403ac2a0241d381466072b604d"
+    },
+    {
+      "path": "assets/building-2-DguAL3_M.js",
+      "sha256": "4ce453f99c5451169ff15791d1005364b1e995bd06d3f401506c5ae4c700cd29"
+    },
+    {
+      "path": "assets/chatNotifications-1xwsKb1D.js",
+      "sha256": "bfd9abbcc9d49a69af4f67e52b13292407182ae2715bea830d72217587292465"
+    },
+    {
+      "path": "assets/check-circle-2-DusiT_Ly.js",
+      "sha256": "3172d5a07e02c2d4048f093b1f972ceb2136ce00b23b9ef0341b0d54e092d860"
+    },
+    {
+      "path": "assets/clock-3-CuU7AM_C.js",
+      "sha256": "06c58be40673741aad51be7133005b3bc8b9cc278e8b0f7abff2d1a1e0d4ff06"
+    },
+    {
+      "path": "assets/companyAdvanceEmployees-Dr8Zras5.js",
+      "sha256": "56afa3cfd9028cbb5f0b9e7c6556df65eeabcdcc5bfc51736546936c263c50d9"
+    },
+    {
+      "path": "assets/companyBankEditing-ByiZj3Zp.js",
+      "sha256": "52c73b925f33136f8dffef8757688a2c18bebfc3cbca5ca7bd2b45d2ac3acb2f"
+    },
+    {
+      "path": "assets/documentActionHistory-KpL9MCat.js",
+      "sha256": "54ab384f0375b55bdefac4b6daaca1f4303bebcdc46f3e7f4658ca7332b08ef1"
+    },
+    {
+      "path": "assets/documentAdditionalColumns-CoiNi7Hm.js",
+      "sha256": "ec98f463ab1fae89c658e318e2b30ee8667802a7bcbc860211f7c1da6fc94639"
+    },
+    {
+      "path": "assets/documentApproval-uh6b0lr_.js",
+      "sha256": "a221850f98233ab4711892fe2b5e33e49c84a3b9508f8346228ec5768832954c"
+    },
+    {
+      "path": "assets/documentArchive-Cds2ocCT.js",
+      "sha256": "258b460848bea3dab45d75fc40374cfffd2846abaf55714b77029075d323af21"
+    },
+    {
+      "path": "assets/documentBulkAssignment-s8HDmcgG.js",
+      "sha256": "f75a8d2162b6582a29176fe5ef5721b96073ab1fb6110ed769b2f2b3a320d0b6"
+    },
+    {
+      "path": "assets/documentDetailEditing-DJyVYZL-.js",
+      "sha256": "cc61ca9b5ada977f21811b9d718312ef1fed74fac873812be20182ae6a7c01a9"
+    },
+    {
+      "path": "assets/documentDetailedDigitization-YWRpgy9N.js",
+      "sha256": "528ec329be38199a95d07b29ec03ddbdd04bb4a6d8cb3639b310c66f49165c4c"
+    },
+    {
+      "path": "assets/documentEditAccess-VUBt0zwm.js",
+      "sha256": "b547a4bec66edd63140e039e8cf53f29cca93e0d1c932eaa9a10a9a4f7eb7c31"
+    },
+    {
+      "path": "assets/documentExport-BQZbe_ug.js",
+      "sha256": "941bc7d3a66298d5ca1e7bb43de541d2f89690b230703ba696a2927b8930fb66"
+    },
+    {
+      "path": "assets/documentInlineEditing-CQIXj-5r.js",
+      "sha256": "1cc74e1f3f33bb7f95cd05a2407046dbd64d0922cf41de37aeee4af56504248b"
+    },
+    {
+      "path": "assets/documentIssueAccess-CD2SU-zA.js",
+      "sha256": "af81694edcbcea0acb28ef779599eb446454863e2a3d33cec3229b4337ed0caa"
+    },
+    {
+      "path": "assets/documentIssueConversation-CH3bfw5v.js",
+      "sha256": "0d672b17fd5daaaf26661af1949f199e8d15c07b6fc010266fe2857a73546c25"
+    },
+    {
+      "path": "assets/documentOrganizationAssignment-CxTh9yad.js",
+      "sha256": "7a137e612fb6ee3487259b186aaf6bb45831a74bc8271e61a2d8eb141b2bd4d3"
+    },
+    {
+      "path": "assets/documentProcessingStatus-BuOHqrxo.js",
+      "sha256": "8a64f2c91c23eb72c790fbc3aa11c87b6a3dd4ed79829f2588aff6d02c669da4"
+    },
+    {
+      "path": "assets/documentPurposeCatalog-Dd4_Rz_y.js",
+      "sha256": "e9b2ce621d76f3dbf333c6c1d99a53368d5c40201456c00120c58cc7a6854ba2"
+    },
+    {
+      "path": "assets/documentResponsibleUsers-C2BVm0kq.js",
+      "sha256": "f1f56744afe7eb9a6d226fdf722af1cbea9cf433e6e32bc9730c1cf9d9683b77"
+    },
+    {
+      "path": "assets/documentRowActionAccess-BcYCZLIL.js",
+      "sha256": "24cc84eaea52bb310ec369f85266ee1446204ee8cabc043c759e67ea7ca3d9b2"
+    },
+    {
+      "path": "assets/documentRowActions-CSDZ3Owj.js",
+      "sha256": "907d0a69cdb968571254bfc86af396926db31698fd472f96860fd51176d385b9"
+    },
+    {
+      "path": "assets/documentStornoAccess-DvWMmAb9.js",
+      "sha256": "716889cdf64397de629baa6f5a8aad213ae8dfd0091c05081bb4bec38e4c2fa9"
+    },
+    {
+      "path": "assets/documentSubtypeOptions-BmLr94qh.js",
+      "sha256": "50f5986175f76ca805e46afc85303ee0eeca889bc90ddfd2a4a33538dbce51e1"
+    },
+    {
+      "path": "assets/documentTestDelivery-DRRmuOwk.js",
+      "sha256": "770121d66953aa7f319cac1855c41253024a8b113f734cd6ce2e6d2bfc7c911e"
+    },
+    {
+      "path": "assets/documentTypeCatalog-4r20O3_V.js",
+      "sha256": "d618b9e7d95f193e2547c9197c17555f7a35110aa2df7d77c0116061a7b30bc4"
+    },
+    {
+      "path": "assets/download-vB8AlmxW.js",
+      "sha256": "ee471edf17364b514bcb029e9513628d8aa74c6fb435eb9efccc842ec4acfb23"
+    },
+    {
+      "path": "assets/external-link-kwqow7Ps.js",
+      "sha256": "a5595aad22cbaa07ff75ee1aab15f8b2419f49d8d5d32f60e338254fb4745fcb"
+    },
+    {
+      "path": "assets/file-up-CACdDtWF.js",
+      "sha256": "8d249787397e009e863c3fb7d7f436d5b5dc9d9ecd707a0ec8048bc423916cce"
+    },
+    {
+      "path": "assets/generalReferenceCatalogs-kD-XtzR2.js",
+      "sha256": "c14d64f1e07243c2f2e17a4c32e1cf2b7fb2b0538d36ca4bbfc133e7deb930a6"
+    },
+    {
+      "path": "assets/html2canvas.esm-CBrSDip1.js",
+      "sha256": "b4f3add809a6d59f46260e8fd56cab240f3153def977386b230a839e8cb0b281"
+    },
+    {
+      "path": "assets/index-BOcm8jwy.css",
+      "sha256": "e9e2f96de2ada87912e119c2630a76c09cd14232ac1389cfe358ae34f461b6e3"
+    },
+    {
+      "path": "assets/index-BdI1UseB.js",
+      "sha256": "1175f86ac778e79fcf50719a18ad6866c423654f44f0aa97185aa9744dd7870b"
+    },
+    {
+      "path": "assets/index-oWAwOl3H.js",
+      "sha256": "a17565b3212b5939e32cecf46780cbd4cbd19b7f1616cb58dbef32659b243608"
+    },
+    {
+      "path": "assets/index.es-B75mLn6C.js",
+      "sha256": "9d56b5cfb20cf5807e1907d7ee05c2ed85ff6c72f7ca174e891101d04c16d879"
+    },
+    {
+      "path": "assets/invoiceAdvanceEmployee-D3rA3zdv.js",
+      "sha256": "f67a11242837bfbe14103abf5a94b598bb809d5a07e691521d639fdb7c9a46cf"
+    },
+    {
+      "path": "assets/invoiceCreation-C90oHiKd.js",
+      "sha256": "ec98c3608db232f3e16ebe68fc972ad56f8086b4bd08a5fbd368ac8cd53fd83c"
+    },
+    {
+      "path": "assets/invoiceCreditNote-C7JUPMp5.js",
+      "sha256": "7d5cb82ea3b5c7ce3aafa31f3b1d93ccddb5b754121eb282a38b6c7d7b68d574"
+    },
+    {
+      "path": "assets/invoiceDocumentForm-ClCmnz7n.js",
+      "sha256": "139cd85da39fed9d77f4fad7557766d2f1b4f702b261e8bee91b6913d0c25e08"
+    },
+    {
+      "path": "assets/invoiceLineExtras-BGDx4e7f.js",
+      "sha256": "427b06b3b024414e53b399a926623de4db6a82cd89395e18eea7afa89e8b1e1d"
+    },
+    {
+      "path": "assets/invoiceLineTypes-Bpn5hbLS.js",
+      "sha256": "ad435f44e1b29330a7c5ccd1118ca62a06bed5588ca3f99af5bcb4e3653f0cda"
+    },
+    {
+      "path": "assets/jspdf.es.min-ChtAJS33.js",
+      "sha256": "80100b2ff34ab4b88ca196a36ddb2a9ac558c7612ddf212e1f1fb9d9c97964aa"
+    },
+    {
+      "path": "assets/key-round-Zd5hMFEH.js",
+      "sha256": "81c6f33402426602ea44c5a29991eaa5f5c058d04366f53b5e8ab9456e96866c"
+    },
+    {
+      "path": "assets/more-vertical-CFwMaxdU.js",
+      "sha256": "4723af6e7b5d14b51286e416645e199402602112c0979b18a3b91aab73d63465"
+    },
+    {
+      "path": "assets/ocrApprovalRouting-uMn8XNuV.js",
+      "sha256": "78112b54ed6e4882af7691d6917ab373e984c8e6c3b320cbcd4905b204bb8787"
+    },
+    {
+      "path": "assets/ocrApprovalRoutingStore-CzVVdcVx.js",
+      "sha256": "008e3424240bfe518746592ed9260bf940cc144c3df8f2e45ffa53b8f6da2eaa"
+    },
+    {
+      "path": "assets/ocrCompletion-Csq07v9W.js",
+      "sha256": "33f5d1973a83b3932418534e2872705d7c2df3b0b52132110053d595a01140ea"
+    },
+    {
+      "path": "assets/ocrDocumentColumns-CM5lC0-Q.js",
+      "sha256": "7b1639ae65abd0c73121dab053299e4d8a374d7b30af46c7b159cae73ca22dd8"
+    },
+    {
+      "path": "assets/ocrDocumentStatusPresentation-BA0aZEmh.js",
+      "sha256": "ea84bc648d381ac1c8952c65330241a8925997d77cb8e4a55fb6452ac442e9d2"
+    },
+    {
+      "path": "assets/ocrDocumentWorkflow-DdjTm3Ck.js",
+      "sha256": "dc7a4c95d46cf4446924e805541842161c6c161351159f4059a58dec14930c80"
+    },
+    {
+      "path": "assets/ocrFieldValidation-BrLKhPq9.js",
+      "sha256": "93537d8cc8daa01c772ad8fa9d6fca66805b27a89e987a0404889cfd1027a7c4"
+    },
+    {
+      "path": "assets/ocrLearningStore-CH7yTSnU.js",
+      "sha256": "196c2866b89e58f5e7eeaf7b214d10d2920d8291913009d039d62a7997c593c9"
+    },
+    {
+      "path": "assets/ocrMyTaskExamples-DZpJsMR_.js",
+      "sha256": "e396a6610d5331c1ce8a28ed9e80b439ed0f4dd014c304b90957a19f78535398"
+    },
+    {
+      "path": "assets/ocrRegisterExamples-CB44T-kx.js",
+      "sha256": "f62dd319ea4958f656942c5901b56b7386dc305d1ddbef10845f7acb616dc29d"
+    },
+    {
+      "path": "assets/ocrRequiredFields-BpYpuOWn.js",
+      "sha256": "de45c89ee6134e57b9b71124f569ce2c97bed585ddec06dc4b71a46d89bfbece"
+    },
+    {
+      "path": "assets/ocrReviewDocuments-BobZfhM6.js",
+      "sha256": "5206e93f617461dc432b7280a820d2998e5d363d58c1639daa742833e81f52bf"
+    },
+    {
+      "path": "assets/ocrReviewExampleCompletion-C2zSYJnE.js",
+      "sha256": "7439c1d3d10f258e6675e1bda04d3e6af8c014eaf8eb4ccf20370294fef85b36"
+    },
+    {
+      "path": "assets/ocrTeamLeadWorkers-CCsCNVH4.js",
+      "sha256": "a10987b0a43c440d2903e69f5aa2b4c5851cd0ee952692e7d193b5b5143a6166"
+    },
+    {
+      "path": "assets/ocrVisualExamples-Bf3sS7eW.js",
+      "sha256": "857565afe87ae95bddc2db119c3e0fbbec3c3ebe8893b8a2eec966388404000d"
+    },
+    {
+      "path": "assets/organizationDirectory-Bzsr66j1.js",
+      "sha256": "7d233a8784f739c8a05cf7612f98d71970a590109bce4e18a3378d732fa99db0"
+    },
+    {
+      "path": "assets/organizationEmail-DjV-L_em.js",
+      "sha256": "e8783bab4c1baf622c57f8f55f8558b29ab28c785481644bdfb7252f7bb17066"
+    },
+    {
+      "path": "assets/organizationProductGroups-B8PDEFb4.js",
+      "sha256": "ff4f4d932ea3c08bb902a039a48d8ec08eb56866eb0b66986b615b1a9a690705"
+    },
+    {
+      "path": "assets/pdf.worker.min-yatZIOMy.mjs",
+      "sha256": "1baa1844c89c80a5b2797c916e75ab29254be46d8e9cb53cb6364d7aad84be36"
+    },
+    {
+      "path": "assets/pencil-CEK3pZFY.js",
+      "sha256": "93b94ad72de21571a6d5462199e630b6d0efb57bd1cb50be8324c6dd48900c92"
+    },
+    {
+      "path": "assets/play-3L6Msyr1.js",
+      "sha256": "277b144a1eed5b02f12a39b5c246c1b8a211bedec660d4230201ee884286ff60"
+    },
+    {
+      "path": "assets/purify.es-BnINGy_Y.js",
+      "sha256": "e1a7db8fd26de50139d42c7758c05111b45ee109c317b77816015927a8e01f7e"
+    },
+    {
+      "path": "assets/rotate-ccw-DU_JxBdx.js",
+      "sha256": "812a730f42ef7b395e65c2098860b056dc520dbba62a65cdcc5cf2a01176d1da"
+    },
+    {
+      "path": "assets/save-DQuc30pY.js",
+      "sha256": "7f59383ef1a5ace22d4bba880cd4991c6a323d0efd25dc28158c567d31115208"
+    },
+    {
+      "path": "assets/send-Br1doxwS.js",
+      "sha256": "97221783c2705ea1c1eb2c24bd21177e961c8aa7d605c3fc633ac01f068628a7"
+    },
+    {
+      "path": "assets/shield-check-DTqT-XyH.js",
+      "sha256": "65db47ec0cb073e9b15bd4e6096bf84fe07276b3eeff982f7218f35e29167ac4"
+    },
+    {
+      "path": "assets/tableSelection-0Vxs6fra.js",
+      "sha256": "485f9291baf378cd807cc7693790c09c96c2e3a5c5e2927bb303205ef224fd55"
+    },
+    {
+      "path": "assets/textSearch-eEaU3y9Z.js",
+      "sha256": "3651b4dc904a5cdb3a9a42a4cc8bdb8260230953eaa4f45b673fb204ea304938"
+    },
+    {
+      "path": "assets/uploadedDocumentActions-BZZpO4ju.js",
+      "sha256": "969f03bf12b0d4757fa621b0a3b00cf515bfcb9cc97668e5a2d002ee0b0b222b"
+    },
+    {
+      "path": "assets/uploadedDocuments-C6HlyTvJ.js",
+      "sha256": "dca386ccdb3be6879a8060cdc4137272cc40daadab6f67d225d1848fd37c3caf"
+    },
+    {
+      "path": "assets/useColumnResize-J-RYUABd.js",
+      "sha256": "ba8a5009f85f850c305cbd370daaad0e85dfb1fea253920864c27eb1ce1f03d9"
+    },
+    {
+      "path": "assets/user-round-maXQhp17.js",
+      "sha256": "9fc370ddfb9ed2734f379cae6a6f08b839088430caad3af56b0d721512b8a8b9"
+    },
+    {
+      "path": "assets/users-round-Ca36cZRW.js",
+      "sha256": "b1cdbe8d7d42ea5132c5023f22c96d5f66491a370f549048d2eaf29cdd16b2bc"
+    },
+    {
+      "path": "assets/workspaceHumanMetricsStore-BkUAdyGm.js",
+      "sha256": "74ccd6bfb70e8b456739bb278b4fde36247917d5527022487ba7d32f23113f54"
+    },
+    {
+      "path": "assets/x-BljfTAcX.js",
+      "sha256": "5664a6ae53a3b8886c720738f0f46773fb4d93c4166caf3a7f238a81fc9dd4e4"
+    },
+    {
+      "path": "assets/xlsx-B6sNpj_1.js",
+      "sha256": "9e14b6b21c7dceb5269ea7729ff0c1f21c78ecfe4d3213213e3954a5a6ab9158"
+    },
+    {
+      "path": "assets/zoom-out-BUtnrXZa.js",
+      "sha256": "d283149a2f9c7678c695f0dcb20cb13fad5dc78e90cb393cfec9f42fe782eda2"
+    },
+    {
+      "path": "image copy copy copy copy.png",
+      "sha256": "1bcb345d9a399c40f6a5cef40f432710413cf474bb43af1d83acaca3a1651311"
+    },
+    {
+      "path": "image copy copy copy.png",
+      "sha256": "969e70faeb718245b9dc9f254ae635ca4d84cce5fdc03d98bd83ebc9d419d54d"
+    },
+    {
+      "path": "image copy copy.png",
+      "sha256": "c0f01ddb60253804dd96f31accabf071226a94fb40771c4a441a9cce8a0a1414"
+    },
+    {
+      "path": "image copy.png",
+      "sha256": "0127df34479e357f8b7a7e8c4893ae1534040dfc8000451f58dc3b7644feaaa0"
+    },
+    {
+      "path": "image.png",
+      "sha256": "9a0193c47cfb318f9f2486c4ed6203dad90fb4d934a42f897733e45d400fed69"
+    },
+    {
+      "path": "images/image copy copy copy copy copy copy copy copy copy copy copy copy copy.png",
+      "sha256": "1cd8b3f76826b51c479cecb38d4222a4c3198b5010321711c21126833d1cc1f4"
+    },
+    {
+      "path": "images/image copy copy copy copy copy copy copy copy copy copy copy copy.png",
+      "sha256": "b9f1e92214f3a1704389200faf8ab81c5a2d865b2ce737cebca96ff46c55f5eb"
+    },
+    {
+      "path": "images/image copy copy copy copy copy copy copy copy copy copy copy.png",
+      "sha256": "d9868c806cdeb2259511272bdb26b51481d37a4f3ae8f3ba0d3674443e1518b9"
+    },
+    {
+      "path": "images/image copy copy copy copy copy copy copy copy copy copy.png",
+      "sha256": "9f3f7d86efb216941c8981545534bb4b8074619617ff959819ebdca1fcfea6ca"
+    },
+    {
+      "path": "images/image copy copy copy copy copy copy copy copy copy.png",
+      "sha256": "6d01bfb856ddbb65920d2a9596339354a37dbcfcee695ebd2f595bad8ebf7645"
+    },
+    {
+      "path": "images/image copy copy copy copy copy copy copy copy.png",
+      "sha256": "d16fe9c6470037a8c33cfb8f143d050475b060ecd9d49928adf67592995c9fcb"
+    },
+    {
+      "path": "images/image copy copy copy copy copy copy copy.png",
+      "sha256": "c15d9e12ef9a27a73dc62d49b43da230b663c61f82bde50e9cc0aaaffe11c998"
+    },
+    {
+      "path": "images/image copy copy copy copy copy copy.png",
+      "sha256": "06a8bd3647cdd3f135d79da62e820e014915e3fe8dd217a0b9a510eeb31c4337"
+    },
+    {
+      "path": "images/image copy copy copy copy copy.png",
+      "sha256": "57c84ab20f3b82f499081f9e980bf9a49ef48d3e38ffce72f725fce576c1ab8b"
+    },
+    {
+      "path": "images/image copy copy copy copy.png",
+      "sha256": "adac3ced5e6f950d6cd93276753b120c4a5dcc2b92c6bf852ddb9af422762711"
+    },
+    {
+      "path": "images/image copy copy copy.png",
+      "sha256": "cbe9189c04bba266a393bd2b0eab4048385722c3fe564b4ca07d7b8340aa7f3f"
+    },
+    {
+      "path": "images/image copy copy.png",
+      "sha256": "b7c16147303bb643399b896762c62195389982ae78ff583df539035b6d69f60a"
+    },
+    {
+      "path": "images/image copy.png",
+      "sha256": "16715a9825b0be3433316821c5fff24b05263c8bf49313c147dbc8f8abe11d72"
+    },
+    {
+      "path": "images/image.png",
+      "sha256": "16715a9825b0be3433316821c5fff24b05263c8bf49313c147dbc8f8abe11d72"
+    },
+    {
+      "path": "index.html",
+      "sha256": "a830c16494bd0c86e0f86d4052242edf5e9b0814df3db19e17002c857092c17c"
+    }
+  ]
+}
