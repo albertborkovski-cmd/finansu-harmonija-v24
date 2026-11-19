@@ -4,6 +4,10 @@ Užšaldyta V24 testavimo versija (žyma `v24`). Ji sukurta iš V23 šaltinių `
 
 V24 testavimas: https://albertborkovski-cmd.github.io/finansu-harmonija-v24/.
 
+## V24.0.1 pataisa (2026-11-19)
+
+Naudotojo prašymu pridėtas „Organization not found“ filtras, „Uploaded documents“ pagal nutylėjimą pažymėta „Digitizing“ ir „Rejected“, o iš bendro dokumentų registro organizacijos dantračio pašalintas „Chart of accounts“. Pataisa taip pat pritaikyta vietinei V25. Pradinė `v24` žyma nepakeista; tikslūs šaltiniai ir patikrų rezultatai pateikti atnaujintame archyve bei `release.json`.
+
 ## Paleidimas
 
 ```bash

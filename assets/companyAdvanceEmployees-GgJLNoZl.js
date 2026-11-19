@@ -1,0 +1,1 @@
+import{y as s,z as n,l as o}from"./index-WQmZXI0U.js";import{assignedAdvanceEmployees as a}from"./invoiceAdvanceEmployee-D3rA3zdv.js";function l(e){const r=window.localStorage.getItem(s(e.id,"External users"))!==null;return a(e,o("External users"),r?n(e.id,"External users"):null)}export{l as loadCompanyAdvanceEmployees};

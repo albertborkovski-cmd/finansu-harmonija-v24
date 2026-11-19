@@ -9,7 +9,7 @@
   },
   {
     "path": "AGENTS.md",
-    "sha256": "10650179f35836a0e9171f1fa27cd962db36fa365085a657a3ab4018df47e1b1"
+    "sha256": "b157d0e71f2f55c2877960144b746576e5c795670520fd1678b51ebd850a1e9d"
   },
   {
     "path": "README.md",
@@ -645,7 +645,7 @@
   },
   {
     "path": "src/components/OrganizationDirectorySettings.tsx",
-    "sha256": "e41932931cf2cd79d732e572e18c2064632dd2f1aa6636a80a52d6efb4f148a3"
+    "sha256": "90f7e64a084cc1a94f9bfdae67af49464075a8195b62cd9653dcaefd574c8b94"
   },
   {
     "path": "src/components/OrganizationEmailHistoryView.tsx",
@@ -853,11 +853,11 @@
   },
   {
     "path": "src/components/UploadedDocumentsView.tsx",
-    "sha256": "9d0892dea088ea3d85f37b6592bb7553ac473acce668bbccd46a004abf8b279f"
+    "sha256": "6aab1c9d13ead1869b21f31b8dadb601fc6a319b76dc781da9e6d8be81309c21"
   },
   {
     "path": "src/components/UploadedLifecycleFilter.tsx",
-    "sha256": "28f90222ca9f9daa976292a253546aa5c0b8fa12d9f0d83c2764ab5c96917eb7"
+    "sha256": "2758c504e985ffc8c144c90571b9e5ff52cab2c0d176fdb95334cee28b1f003c"
   },
   {
     "path": "src/components/VatClassificationsView.tsx",
@@ -1117,7 +1117,7 @@
   },
   {
     "path": "src/i18n/lt-document-settings.ts",
-    "sha256": "c312fe3b25fb641cdd90c4ef464b6988f9f8b1feb35cbcc864096504edcef8d6"
+    "sha256": "091caa9a3cb717fdb84e3a934372ed1129302acebb94e23da77c3dc5e3ad5489"
   },
   {
     "path": "src/i18n/lt-interface.ts",
@@ -1877,7 +1877,7 @@
   },
   {
     "path": "src/lib/uploadedLifecycleFilters.ts",
-    "sha256": "656283aa41cbcad887b1e3c0ab8900576f7f1e3094089126ac7d1d60722dde38"
+    "sha256": "88431fb60e2055b8b655e9e9286c118808346564d7418bc8c6ef3dc0b59235de"
   },
   {
     "path": "src/lib/vatEmailTemplates.ts",
@@ -2429,7 +2429,7 @@
   },
   {
     "path": "tests/ocr-inbox.test.mjs",
-    "sha256": "521619591d661d2b2e5170e90e19921a69a6e55d164b4657f8f7e182f40d0fa8"
+    "sha256": "e91c42215d8672e02112f97a53ae21d3bbb743c1f6b09d05f86bcaeff56ac185"
   },
   {
     "path": "tests/ocr-learning-documents.test.mjs",
@@ -2506,6 +2506,10 @@
   {
     "path": "tests/organization-directory.test.mjs",
     "sha256": "179b9ebf4e4447c6232fa3de07a8a5fd4ce86c69497975e66448a4afb238a408"
+  },
+  {
+    "path": "tests/organization-gear-navigation.test.mjs",
+    "sha256": "37803ab79a0ad8b3853bb3e9b77c6f489bfc3a94f81f0c59dc3cea2a5c7770b9"
   },
   {
     "path": "tests/organization-reference-lists.test.mjs",
