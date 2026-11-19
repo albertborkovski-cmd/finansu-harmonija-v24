@@ -9,7 +9,7 @@
   },
   {
     "path": "AGENTS.md",
-    "sha256": "1aee1be647a61f2f2893ebf5c8cae0eea0e8494cdc412541d15cc3980e08440f"
+    "sha256": "5f6448c09c6cad13e2ce977bf048df2bc1396a845e2a120ceef2cf638adaf7c2"
   },
   {
     "path": "README.md",
@@ -553,11 +553,15 @@
   },
   {
     "path": "src/components/IntegrationHelpLink.tsx",
-    "sha256": "b5c47d728a388d09c67c59def303a98694bb390ac63a0c98b626abf0987b148b"
+    "sha256": "402c024764333c52e45f2c22348fe489d65be857fe6cfd7b2af9e2bc30bb6ae6"
+  },
+  {
+    "path": "src/components/IntegrationHelpTopics.tsx",
+    "sha256": "9678945fa5f40d12c4e2d634594965cc7d6a5ac101a99db4635e065827af20d8"
   },
   {
     "path": "src/components/IntegrationsHelpPage.tsx",
-    "sha256": "b2aa4642bc432689fa3784b11dfdf0e1c1b4804f84c92cf4f18f82fb51fde218"
+    "sha256": "62881ed0e8b038ea80c6b4fadf5f54fa078b0fffbb28bf588ebd6ba2455630f0"
   },
   {
     "path": "src/components/LanguageSwitcher.tsx",
@@ -1592,6 +1596,10 @@
     "sha256": "5d736c2d688a7add0aa4cf56fa29ca9ac58b11fb0e79a12d15936ad022b56043"
   },
   {
+    "path": "src/lib/integrationHelpTopics.ts",
+    "sha256": "64561f73b9a2a68bf9cb49464a9cb868594957f93656b1df5d6a3b7ac640a61a"
+  },
+  {
     "path": "src/lib/invoiceAdvanceEmployee.ts",
     "sha256": "fb5d86c907087f6fac2e1ba2dafd47d04781c11758e42f6740beaf3e6dbd1c90"
   },
@@ -2437,7 +2445,7 @@
   },
   {
     "path": "tests/integrations-help.test.mjs",
-    "sha256": "088ffd6a88151e7e039e28bde911dbd00e1ef99473df63d65923cd495dbba9da"
+    "sha256": "8e8334dd25bb293a03ed40accbef7e55a7a4a954e9029c7964e494d803d6893a"
   },
   {
     "path": "tests/invoice-creation.test.mjs",
