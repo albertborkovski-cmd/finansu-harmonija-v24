@@ -9,7 +9,7 @@
   },
   {
     "path": "AGENTS.md",
-    "sha256": "b157d0e71f2f55c2877960144b746576e5c795670520fd1678b51ebd850a1e9d"
+    "sha256": "cce5df592cf7290f970688a0cb33d4f2551a14429a354fd6cb6053da33da36d1"
   },
   {
     "path": "README.md",
@@ -125,11 +125,11 @@
   },
   {
     "path": "src/App.tsx",
-    "sha256": "59e3afb14249578f1cda40eee2f627d42bfe5de0216f80e529f1505afd35ff28"
+    "sha256": "34c096dd5ed16982d617fa6a859d20975ce3c9f8f21b49077008ff31d72075b9"
   },
   {
     "path": "src/components/AdditionalColumnSettings.tsx",
-    "sha256": "f78fd6606b25e6078c8316dfef4e913fe8d00a45fe8ef6ac278f859c03d7d09e"
+    "sha256": "4af92b25e07838b9fda1c2e8a1067c08c26ab6af69a21cee37c808f414eb18d4"
   },
   {
     "path": "src/components/AdministrationView.tsx",
@@ -456,6 +456,14 @@
     "sha256": "46802efe88152226318e14ac869fe78e582d8270efe4018ba3ca3f98b8457079"
   },
   {
+    "path": "src/components/ExportSettingsHelpLink.tsx",
+    "sha256": "13ad25d197f754f0527df8299fb6612b7910dbf5807ae145cdb95efe04cc2350"
+  },
+  {
+    "path": "src/components/ExportSettingsHelpPage.tsx",
+    "sha256": "3ba249bbde16d1d8d188719efa0e54f5fdbb56960b5b253bdc6de3cf65687a03"
+  },
+  {
     "path": "src/components/FinancialStatementItemsView.tsx",
     "sha256": "5ff9761f7f26158a1957135810bcd2ed58cde27d11b82b589275f06b8a0a1d7f"
   },
@@ -641,7 +649,7 @@
   },
   {
     "path": "src/components/OrganizationDigitizationSetup.tsx",
-    "sha256": "2ed6784a74ba1cc106709d3c8cffdd8813d2706a792e5dc9ee92ac20c712ebd5"
+    "sha256": "1bb93bcc0c3ba045939fe8f3344ff32556cfee6444873c0603f871741b0c78c0"
   },
   {
     "path": "src/components/OrganizationDirectorySettings.tsx",
@@ -1117,7 +1125,7 @@
   },
   {
     "path": "src/i18n/lt-document-settings.ts",
-    "sha256": "091caa9a3cb717fdb84e3a934372ed1129302acebb94e23da77c3dc5e3ad5489"
+    "sha256": "a3ab56920ab19ac6eb5d7062bfa51f008cf396117a0ada88bf0b43d7fa2d2ba8"
   },
   {
     "path": "src/i18n/lt-interface.ts",
@@ -1261,7 +1269,7 @@
   },
   {
     "path": "src/lib/companyDigitizationSettings.ts",
-    "sha256": "d5162de04284d26f4d0491756dce97f43f90c92720584ce3adcfdb285e417a26"
+    "sha256": "631b0e0c69c21c62db95dbcca28f79eab390dee392312be545be826164dbd7d3"
   },
   {
     "path": "src/lib/companyExpenseImport.ts",
@@ -1438,6 +1446,14 @@
   {
     "path": "src/lib/dropdownPosition.ts",
     "sha256": "4f64d2200b5c35b6db4cf32b0f8dfe0b8e180d0f73575ffb58f02f5be93b045a"
+  },
+  {
+    "path": "src/lib/exportFormatSchemas.ts",
+    "sha256": "995a16f256f4cb384ff0de649920b9f55cb08f07832ee0c53bbcf53f6693e1db"
+  },
+  {
+    "path": "src/lib/exportSettingsHelp.ts",
+    "sha256": "9545a39e331c361ac4ef4860d28e683f991c5487f16111d0be5700ba84d1ad64"
   },
   {
     "path": "src/lib/externalRoleUserStatus.ts",
@@ -2049,7 +2065,7 @@
   },
   {
     "path": "tests/company-digitization-settings.test.mjs",
-    "sha256": "65a7f83e9d44a7e0596f2f95b2a8b268cbdcaf7e66ee70d6b2ace9418a862518"
+    "sha256": "e60fbf3f384abfd8cd673faf919a25c704e6d83b17ca7a8292650946e9cd3097"
   },
   {
     "path": "tests/company-expense-import.test.mjs",
@@ -2254,6 +2270,10 @@
   {
     "path": "tests/dropdown-behavior.test.mjs",
     "sha256": "b90fb3574c73b2f1caa6c835731e709b193555ebb04272c20c52e8781b37a205"
+  },
+  {
+    "path": "tests/export-format-schemas.test.mjs",
+    "sha256": "44f81aa64303df340acf588593b257b264df9669ef4b335e10126823004500bb"
   },
   {
     "path": "tests/external-role-user-status.test.mjs",
@@ -2529,7 +2549,7 @@
   },
   {
     "path": "tests/profile-ocr-settings.test.mjs",
-    "sha256": "9e356c270ec6d233152e99c9776f24ee9af329173fb3b4cd889cf3b7ed5fe2b0"
+    "sha256": "b98ac1a75e90b6038542a88d78e88f023474002a04bf916b50afcc85f698ede5"
   },
   {
     "path": "tests/profile-sharing.test.mjs",
