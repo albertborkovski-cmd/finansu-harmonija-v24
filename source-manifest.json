@@ -9,7 +9,7 @@
   },
   {
     "path": "AGENTS.md",
-    "sha256": "c29b1fe1baf2f9cb87919e5a19579930c764fb903a30f62e067c715a02ea6ad2"
+    "sha256": "1aee1be647a61f2f2893ebf5c8cae0eea0e8494cdc412541d15cc3980e08440f"
   },
   {
     "path": "README.md",
@@ -62,6 +62,14 @@
   {
     "path": "public/help/export-settings.jpg",
     "sha256": "2dba6f99622bd50d26d69537c2363fae1c7ff9fa17ad3a19ae48a7256779be84"
+  },
+  {
+    "path": "public/help/google-drive.jpg",
+    "sha256": "20810554ad939ebdb7b06aad94924e00628f8dffb23a0b73e2f5fbe1865e4acc"
+  },
+  {
+    "path": "public/help/sharepoint.jpg",
+    "sha256": "1c5ca3ca42cfac4316f90d18faa090d93e360fc12baa346ed89fefe8435330eb"
   },
   {
     "path": "public/image copy copy copy copy.png",
@@ -145,7 +153,7 @@
   },
   {
     "path": "src/App.tsx",
-    "sha256": "43ba5cfa8754ab07d7b6db678dbe6cc485f496d5ba3d8e1f7b94e47c5171f1a3"
+    "sha256": "91594ad8ea95c0f91df1e7518d32a924c0e8b1d9257ba508ae257599f50216f3"
   },
   {
     "path": "src/components/AdditionalColumnSettings.tsx",
@@ -309,7 +317,7 @@
   },
   {
     "path": "src/components/CompanySharePointSettings.tsx",
-    "sha256": "23e1345c41f70c3ef694ed76e606465bf7ff457ced65ddecc51366a297c6240a"
+    "sha256": "cec0ee404e2a683a4a567990daecec2c6b8f3a405906c1ad6ee163a3a74b722d"
   },
   {
     "path": "src/components/CompanySubstitutionsTable.tsx",
@@ -485,7 +493,7 @@
   },
   {
     "path": "src/components/ExportSettingsHelpPage.tsx",
-    "sha256": "f055772b0ef7ef02f4a0f29a1209dfb3e8e9b925208b04060d0b507d6dbbb34f"
+    "sha256": "fedd2572a1b9a042ed8979e5c1be4cbee43667d03f3291685af002376e86b599"
   },
   {
     "path": "src/components/FinancialStatementItemsView.tsx",
@@ -542,6 +550,14 @@
   {
     "path": "src/components/ImportButton.tsx",
     "sha256": "e3986196e02abb5ebeb17b733f7ae237bc9e7fc6500e7f0e1addecec79268fc4"
+  },
+  {
+    "path": "src/components/IntegrationHelpLink.tsx",
+    "sha256": "b5c47d728a388d09c67c59def303a98694bb390ac63a0c98b626abf0987b148b"
+  },
+  {
+    "path": "src/components/IntegrationsHelpPage.tsx",
+    "sha256": "b2aa4642bc432689fa3784b11dfdf0e1c1b4804f84c92cf4f18f82fb51fde218"
   },
   {
     "path": "src/components/LanguageSwitcher.tsx",
@@ -677,7 +693,7 @@
   },
   {
     "path": "src/components/OrganizationDigitizationSetup.tsx",
-    "sha256": "248147f00e06cfb0e332d1d924675203ac85e987d50f4422a560bfdf71023530"
+    "sha256": "d652f5c0f45c855df3edada4cf608628664776ba2a5420776cac00714db77dc3"
   },
   {
     "path": "src/components/OrganizationDirectorySettings.tsx",
@@ -713,7 +729,7 @@
   },
   {
     "path": "src/components/OrganizationSettingsHelpPage.tsx",
-    "sha256": "f45486551c360afd30fa3407031d67a9b5480ec4190fb34282dd18fd5bfa0e8e"
+    "sha256": "79a221ca07013826e1f88a88bbbcb92febeedf04189d4cab2bd5473372aa70d2"
   },
   {
     "path": "src/components/OrganizationSetupIntegration.tsx",
@@ -733,7 +749,7 @@
   },
   {
     "path": "src/components/ProfileOcrSetup.tsx",
-    "sha256": "e89107f2d330a3d986992a6f38400e341ea7b9bffbe604ebdf77cc7e8003fe33"
+    "sha256": "fbad24c96624545ce95ed86931af55f3b5102b61804b516c2bda887c88607033"
   },
   {
     "path": "src/components/ProfilePlanUsage.tsx",
@@ -1570,6 +1586,10 @@
   {
     "path": "src/lib/importantNotificationExamples.ts",
     "sha256": "1c7d67b83361a2a1c23ee333463026f9786f87e26dbbd72bbe633b1e834105aa"
+  },
+  {
+    "path": "src/lib/integrationHelp.ts",
+    "sha256": "5d736c2d688a7add0aa4cf56fa29ca9ac58b11fb0e79a12d15936ad022b56043"
   },
   {
     "path": "src/lib/invoiceAdvanceEmployee.ts",
@@ -2414,6 +2434,10 @@
   {
     "path": "tests/infinite-table-scroll.tsx",
     "sha256": "00b3c6ced750a8ab1dcc6482a5139b463be61346d1ff456c5fdbac46d8568bfc"
+  },
+  {
+    "path": "tests/integrations-help.test.mjs",
+    "sha256": "088ffd6a88151e7e039e28bde911dbd00e1ef99473df63d65923cd495dbba9da"
   },
   {
     "path": "tests/invoice-creation.test.mjs",
