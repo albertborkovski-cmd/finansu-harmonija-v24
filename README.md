@@ -4,6 +4,16 @@ Užšaldyta V24 testavimo versija (žyma `v24`). Ji sukurta iš V23 šaltinių `
 
 V24 testavimas: https://albertborkovski-cmd.github.io/finansu-harmonija-v24/.
 
+## V24.0.3 pagalba (2026-11-19)
+
+Pridėtas pagrindinio meniu „Pagalba“ punktas ir atskirame skirtuke atidaromi „?“ paaiškinimai visose organizacijos nustatymų skiltyse. Instrukcijose yra 38 eksporto formatų laukų paaiškinimai, atskiri failo ir API žingsniai, Rivilė GAMA / ERP rakto bei ryšio kontrolė, penkios originalios FH ekranų nuotraukos, penki išoriniai importo mokomieji įrašai ir Site.pro klaida „Datos konfliktas prekei“. Išoriniai vaizdo įrašai nėra FH sąsajos demonstracija ir įkeliami tik naudotojui paspaudus.
+
+API integracija nėra prijungta; forma nesaugo ir nesiunčia tikrų raktų. Ši pataisa taikoma ir V25, nepakeičiant ankstesnių leidimų žymų.
+
+## V24.0.2 eksporto nustatymai (2026-11-19)
+
+38 eksportavimo formatai turi atskiras laukų schemas ir savarankiškai saugomus nustatymus. Rivilė, Rivilė API ir Rivilė ERP formos atskirtos. Prisijungimo duomenys nepublikuojami ir naršyklėje nesaugomi.
+
 ## V24.0.1 pataisa (2026-11-19)
 
 Naudotojo prašymu pridėtas „Organization not found“ filtras, „Uploaded documents“ pagal nutylėjimą pažymėta „Digitizing“ ir „Rejected“, o iš bendro dokumentų registro organizacijos dantračio pašalintas „Chart of accounts“. Pataisa taip pat pritaikyta vietinei V25. Pradinė `v24` žyma nepakeista; tikslūs šaltiniai ir patikrų rezultatai pateikti atnaujintame archyve bei `release.json`.

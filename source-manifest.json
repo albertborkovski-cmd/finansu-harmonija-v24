@@ -9,7 +9,7 @@
   },
   {
     "path": "AGENTS.md",
-    "sha256": "cce5df592cf7290f970688a0cb33d4f2551a14429a354fd6cb6053da33da36d1"
+    "sha256": "c29b1fe1baf2f9cb87919e5a19579930c764fb903a30f62e067c715a02ea6ad2"
   },
   {
     "path": "README.md",
@@ -42,6 +42,26 @@
   {
     "path": "public/.nojekyll",
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "public/help/additional-columns.jpg",
+    "sha256": "a5866f7ff63b3717376cad0bc515f83a0ec14f069edb84ace99b0d42136669ca"
+  },
+  {
+    "path": "public/help/counterparties.jpg",
+    "sha256": "43102730e5886992a70b03593c99a5e8b0b9fe67de57f695868b16ab60d315d5"
+  },
+  {
+    "path": "public/help/document-dates.jpg",
+    "sha256": "c537a93da0b7579025c431d0507d5c5bfda9cf1155788d021bf054ab7be98e7c"
+  },
+  {
+    "path": "public/help/expense-import.jpg",
+    "sha256": "8821ab31039019cfd3572505623f9b887eee9584e5343532d50e7855465fe8ee"
+  },
+  {
+    "path": "public/help/export-settings.jpg",
+    "sha256": "2dba6f99622bd50d26d69537c2363fae1c7ff9fa17ad3a19ae48a7256779be84"
   },
   {
     "path": "public/image copy copy copy copy.png",
@@ -125,7 +145,7 @@
   },
   {
     "path": "src/App.tsx",
-    "sha256": "34c096dd5ed16982d617fa6a859d20975ce3c9f8f21b49077008ff31d72075b9"
+    "sha256": "43ba5cfa8754ab07d7b6db678dbe6cc485f496d5ba3d8e1f7b94e47c5171f1a3"
   },
   {
     "path": "src/components/AdditionalColumnSettings.tsx",
@@ -241,7 +261,7 @@
   },
   {
     "path": "src/components/CompanyCounterpartyEditor.tsx",
-    "sha256": "8b4a08eea43ca8d06a72bc3b45be502406772401ae64e4cc6fa5a1e94a5dfe0e"
+    "sha256": "69b1c956a44852f9d378fbbde0228d1df78685a6cfa5ad6e84929af9db2f528a"
   },
   {
     "path": "src/components/CompanyDebts.tsx",
@@ -452,6 +472,10 @@
     "sha256": "93a1a7c7e8e3d14a1493cb87bae15ffbdad8d43575bbe04462cc89379606f400"
   },
   {
+    "path": "src/components/ExportDateConflictHelp.tsx",
+    "sha256": "a5fd70ba2180556b22be12d97a80e5e4f49bd88ff8ad741af9ebe2a13451f722"
+  },
+  {
     "path": "src/components/ExportPanel.tsx",
     "sha256": "46802efe88152226318e14ac869fe78e582d8270efe4018ba3ca3f98b8457079"
   },
@@ -461,7 +485,7 @@
   },
   {
     "path": "src/components/ExportSettingsHelpPage.tsx",
-    "sha256": "3ba249bbde16d1d8d188719efa0e54f5fdbb56960b5b253bdc6de3cf65687a03"
+    "sha256": "f055772b0ef7ef02f4a0f29a1209dfb3e8e9b925208b04060d0b507d6dbbb34f"
   },
   {
     "path": "src/components/FinancialStatementItemsView.tsx",
@@ -506,6 +530,10 @@
   {
     "path": "src/components/HelpFaqView.tsx",
     "sha256": "c97c27eee7f192dff3066d83b8e81643b66e6b85b6a10102ec1c6f04db97b2b7"
+  },
+  {
+    "path": "src/components/HelpMedia.tsx",
+    "sha256": "a45361985c6008f1f524af9322276a581926d58c26d52f2955c6a0163594c674"
   },
   {
     "path": "src/components/HorizontalTableScrollbar.tsx",
@@ -641,7 +669,7 @@
   },
   {
     "path": "src/components/OrganizationAdditionalCodes.tsx",
-    "sha256": "8b445b7037c0887144d1c1840dce65519feaf9a9b56ca5c5802b4a5a1080d985"
+    "sha256": "4129b34819d77ed3d929a12b54ee29b2dea4c7f3251d7b0641b2864d3e5cc38d"
   },
   {
     "path": "src/components/OrganizationCounterpartiesSettings.tsx",
@@ -649,11 +677,11 @@
   },
   {
     "path": "src/components/OrganizationDigitizationSetup.tsx",
-    "sha256": "1bb93bcc0c3ba045939fe8f3344ff32556cfee6444873c0603f871741b0c78c0"
+    "sha256": "248147f00e06cfb0e332d1d924675203ac85e987d50f4422a560bfdf71023530"
   },
   {
     "path": "src/components/OrganizationDirectorySettings.tsx",
-    "sha256": "90f7e64a084cc1a94f9bfdae67af49464075a8195b62cd9653dcaefd574c8b94"
+    "sha256": "47b52049bd0012adbdeddf715a0b89a2a0d2443ec254dd7d0310cb8f2f41c780"
   },
   {
     "path": "src/components/OrganizationEmailHistoryView.tsx",
@@ -669,7 +697,7 @@
   },
   {
     "path": "src/components/OrganizationReferenceLists.tsx",
-    "sha256": "1b62c526883526904fd6fdd45a290f57f9da6b26dc80bba8c369fa5a60b66c17"
+    "sha256": "f5f1983172be6df24dfb1ad92afc45ffcd487cdb97df3acbd8033d1a9834c989"
   },
   {
     "path": "src/components/OrganizationReferenceValuesView.tsx",
@@ -678,6 +706,14 @@
   {
     "path": "src/components/OrganizationRequiredActionsView.tsx",
     "sha256": "068a4254530172def14828a8670d72bedf27d573c18b338bab7ec7b291a6580e"
+  },
+  {
+    "path": "src/components/OrganizationSettingsHelpLink.tsx",
+    "sha256": "01239ca80609f1b82d70277d1bf3e4eb177a090735798f8665f19c221fc3af69"
+  },
+  {
+    "path": "src/components/OrganizationSettingsHelpPage.tsx",
+    "sha256": "f45486551c360afd30fa3407031d67a9b5480ec4190fb34282dd18fd5bfa0e8e"
   },
   {
     "path": "src/components/OrganizationSetupIntegration.tsx",
@@ -817,7 +853,7 @@
   },
   {
     "path": "src/components/Sidebar.tsx",
-    "sha256": "dfab2a086870dc16067ab1865e1e83cd144b005c78d65c15f2f0d0b1688206c7"
+    "sha256": "60dc96c67331986819e57ce0f87ce5a01c5acedc51463080968ef54fc6ef969b"
   },
   {
     "path": "src/components/StopAllButton.tsx",
@@ -1452,8 +1488,12 @@
     "sha256": "995a16f256f4cb384ff0de649920b9f55cb08f07832ee0c53bbcf53f6693e1db"
   },
   {
+    "path": "src/lib/exportHelpGuide.ts",
+    "sha256": "d946cd76713d673811be41729e51628aefc9595e027059804cbf2f4fd12acbbd"
+  },
+  {
     "path": "src/lib/exportSettingsHelp.ts",
-    "sha256": "9545a39e331c361ac4ef4860d28e683f991c5487f16111d0be5700ba84d1ad64"
+    "sha256": "d7c04cbf930f1959fd86378aaa95845706b510171bd769c219c4d4fb69c04ef2"
   },
   {
     "path": "src/lib/externalRoleUserStatus.ts",
@@ -1762,6 +1802,10 @@
   {
     "path": "src/lib/organizationReferenceLists.ts",
     "sha256": "8349f0e8d151fc15b0b4f97c571c771af5bc8c576fdf3647de9ab910f097a0f6"
+  },
+  {
+    "path": "src/lib/organizationSettingsHelp.ts",
+    "sha256": "4ba58ca7fc1aa4d9cc917b8a29aa864da50e95a60be410cbf2ddc42924ae4b75"
   },
   {
     "path": "src/lib/profileCompanyDetails.ts",
@@ -2534,6 +2578,10 @@
   {
     "path": "tests/organization-reference-lists.test.mjs",
     "sha256": "79b341cdc2263613e6415345f9094b031e96ba47fa1827a0c54c02ed05a9d6ad"
+  },
+  {
+    "path": "tests/organization-settings-help.test.mjs",
+    "sha256": "4405a86fecd5a9b47e6b325d5772ba5822fbd43485ada236b0a8ada5ba66cc45"
   },
   {
     "path": "tests/performance-regressions.test.mjs",
