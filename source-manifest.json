@@ -9,7 +9,7 @@
   },
   {
     "path": "AGENTS.md",
-    "sha256": "5f6448c09c6cad13e2ce977bf048df2bc1396a845e2a120ceef2cf638adaf7c2"
+    "sha256": "e25be0b6e932ab28eec9d429264fdfe637b0e2cce02433e65023c00fae4dcf71"
   },
   {
     "path": "README.md",
@@ -493,7 +493,7 @@
   },
   {
     "path": "src/components/ExportSettingsHelpPage.tsx",
-    "sha256": "fedd2572a1b9a042ed8979e5c1be4cbee43667d03f3291685af002376e86b599"
+    "sha256": "c23f8b371d9df9731a799175d5fe221a23ef81c996e8d30c47e5a5545e361c9f"
   },
   {
     "path": "src/components/FinancialStatementItemsView.tsx",
@@ -541,7 +541,7 @@
   },
   {
     "path": "src/components/HelpMedia.tsx",
-    "sha256": "a45361985c6008f1f524af9322276a581926d58c26d52f2955c6a0163594c674"
+    "sha256": "a700c17d85186cc08d2e900c74ebe0264891f9907fc04f6ff93e297d259ebab1"
   },
   {
     "path": "src/components/HorizontalTableScrollbar.tsx",
@@ -557,11 +557,11 @@
   },
   {
     "path": "src/components/IntegrationHelpTopics.tsx",
-    "sha256": "9678945fa5f40d12c4e2d634594965cc7d6a5ac101a99db4635e065827af20d8"
+    "sha256": "1bef9ac065854b57000db445f5e7631dccd5c0965c0623c52cde37000c6330df"
   },
   {
     "path": "src/components/IntegrationsHelpPage.tsx",
-    "sha256": "62881ed0e8b038ea80c6b4fadf5f54fa078b0fffbb28bf588ebd6ba2455630f0"
+    "sha256": "8989b43c479e1abd5a79ee8138a8b70498e79590160cd98df4feec618828ab3c"
   },
   {
     "path": "src/components/LanguageSwitcher.tsx",
@@ -1509,7 +1509,7 @@
   },
   {
     "path": "src/lib/exportHelpGuide.ts",
-    "sha256": "d946cd76713d673811be41729e51628aefc9595e027059804cbf2f4fd12acbbd"
+    "sha256": "475f965105a4842a3d56fbe6e5fe82ce83d6f4cf22a7864865f80186c8cca2b5"
   },
   {
     "path": "src/lib/exportSettingsHelp.ts",
@@ -1597,7 +1597,15 @@
   },
   {
     "path": "src/lib/integrationHelpTopics.ts",
-    "sha256": "64561f73b9a2a68bf9cb49464a9cb868594957f93656b1df5d6a3b7ac640a61a"
+    "sha256": "fd4cd98a8d7444869d0aa9b5102c871d7eaacc836b687c6f192c4b6e69b3d020"
+  },
+  {
+    "path": "src/lib/integrationVendorTopics.ts",
+    "sha256": "6ccff056fde231b6f246ce6249aa8a296380325480fe7e0b50a7217029072f14"
+  },
+  {
+    "path": "src/lib/integrationWorkflowTopics.ts",
+    "sha256": "d2df5099b38c38d83af976dceeefe7f28d220c902abc88ff73558118bc3f4784"
   },
   {
     "path": "src/lib/invoiceAdvanceEmployee.ts",
@@ -2445,7 +2453,7 @@
   },
   {
     "path": "tests/integrations-help.test.mjs",
-    "sha256": "8e8334dd25bb293a03ed40accbef7e55a7a4a954e9029c7964e494d803d6893a"
+    "sha256": "b1b86aee5603921ae380f8caa15d170c96dd7e995f84f2156b5d58cb913a6e2b"
   },
   {
     "path": "tests/invoice-creation.test.mjs",
@@ -2613,7 +2621,7 @@
   },
   {
     "path": "tests/organization-settings-help.test.mjs",
-    "sha256": "4405a86fecd5a9b47e6b325d5772ba5822fbd43485ada236b0a8ada5ba66cc45"
+    "sha256": "478db3962271141bc622713571a39ff9f5cf3ec92ebfe0ded7c56fcfeab4cc65"
   },
   {
     "path": "tests/performance-regressions.test.mjs",

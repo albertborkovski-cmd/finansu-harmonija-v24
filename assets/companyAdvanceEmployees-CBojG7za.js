@@ -1,1 +1,0 @@
-import{z as s,B as n,l as o}from"./index-DALw_Bmw.js";import{assignedAdvanceEmployees as a}from"./invoiceAdvanceEmployee-D3rA3zdv.js";function l(e){const r=window.localStorage.getItem(s(e.id,"External users"))!==null;return a(e,o("External users"),r?n(e.id,"External users"):null)}export{l as loadCompanyAdvanceEmployees};
