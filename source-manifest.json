@@ -9,11 +9,11 @@
   },
   {
     "path": "AGENTS.md",
-    "sha256": "23ee6f8ce8a6e90fee96e2ebcdb3cfc329619ee0f845700c000d3abda95f7737"
+    "sha256": "85e8f3bded7544876fe0e2236a40e0dc1494a95acce861a01b6cf1c2216472e0"
   },
   {
     "path": "README.md",
-    "sha256": "50acf52014de5adfb89140b77fb30d2ace8734d4846433a37177a0c416d606eb"
+    "sha256": "41cbeceb516d5c73e5d45dc7bf21d047db3512015201bc134f42fe6aee6c80ae"
   },
   {
     "path": "docs/reconciliation-test-mode.md",
@@ -29,11 +29,11 @@
   },
   {
     "path": "package-lock.json",
-    "sha256": "918a432e676c3c9cf5b76001f7f1ff80e5769909b81e1a95ce2b6a7c4274c848"
+    "sha256": "03f1018897fc04d4ce7729f2ec2ca3bb7729dccedf8c40b58e3536a70c30037a"
   },
   {
     "path": "package.json",
-    "sha256": "96da5d38f1222350b2cd490f2e56ccde2bbd1aca39732d32bd6a5eea263981c5"
+    "sha256": "cd7c120a43b441de4f2320ec55b152a04a9f7697b3ac6c2f489f7ca334d59065"
   },
   {
     "path": "postcss.config.js",
@@ -913,7 +913,7 @@
   },
   {
     "path": "src/components/DocumentIssueQueue.tsx",
-    "sha256": "e6afa40cf41432a54bb262b331304147cb2c7a52004b038ff9db7c6dbb1b97f1"
+    "sha256": "f03a8f2bf8d310cafc849ffa17ec526f179e8102f81ae9df51b2c105ba6b9691"
   },
   {
     "path": "src/components/DocumentIssueReceipts.tsx",
@@ -957,7 +957,7 @@
   },
   {
     "path": "src/components/Documents.tsx",
-    "sha256": "ab344556bed3975729160591dd029a13d6b65369e4cdc3377f13514720118fb6"
+    "sha256": "0cedc48d5e154b2fd503b8c67ec4679b784fde85c0b13b64b161725c7a68222b"
   },
   {
     "path": "src/components/DropdownPortal.tsx",
@@ -1141,7 +1141,7 @@
   },
   {
     "path": "src/components/OcrAdditionalInformation.tsx",
-    "sha256": "43f009e8a8e224e9947a4d10449141d1d08a26964d1a7c812d515d81a59a0e47"
+    "sha256": "66fff25ac7a498ed586fc66865ad7736e425fe7015875d1bd7f93d0dfc5e150a"
   },
   {
     "path": "src/components/OcrBreadcrumb.tsx",
@@ -1197,7 +1197,7 @@
   },
   {
     "path": "src/components/OcrProcessedDocumentsView.tsx",
-    "sha256": "51307e4ded8980832be91bda382e78724306603737bb9b7c26173435137cc1f3"
+    "sha256": "253ce08c4bf41b6845786e65defe61d84bbac7be162e6aa186be817470795fa8"
   },
   {
     "path": "src/components/OcrReviewView.tsx",
@@ -1257,7 +1257,7 @@
   },
   {
     "path": "src/components/OrganizationReferenceValuesView.tsx",
-    "sha256": "4c214a4f872a9a2536d9d5409356f4cab64ec3c932f4bfa296140d02465e7b2b"
+    "sha256": "d80bddce3250284240499a553636c9e7309ad603974b984aef21602c8455a8c8"
   },
   {
     "path": "src/components/OrganizationRequiredActionsView.tsx",
@@ -1489,7 +1489,7 @@
   },
   {
     "path": "src/components/WorkspaceView.tsx",
-    "sha256": "405d30f7b8fca8513638b6c694fe1cbdc17448762ee98bf2e713bea699686018"
+    "sha256": "569fdc45d9dc7d1a919ac6f63b4ac46300f8f5832dff80d6a4ad7759019b0c7d"
   },
   {
     "path": "src/components/administrationUsersStore.ts",
@@ -1929,7 +1929,7 @@
   },
   {
     "path": "src/lib/documentAdditionalColumns.ts",
-    "sha256": "154f2f8af895cbdaa59d35b0a69b2b5ec1c37569158f567b718939366da8df08"
+    "sha256": "de5e5d60601b192ce4e1a1124b408cd62b3bf2ff2c867b04631d7545843a5f22"
   },
   {
     "path": "src/lib/documentApproval.ts",
@@ -1981,7 +1981,7 @@
   },
   {
     "path": "src/lib/documentIssueTable.ts",
-    "sha256": "3f3df0b8bcc763a3851f3c7f65aade5679161102866accb92ae1159931c1eb84"
+    "sha256": "33f93315eb5b0e72724fab47f47d33cbd32f3a27e483cca311a9f428920d24c8"
   },
   {
     "path": "src/lib/documentIssues.ts",
@@ -2020,6 +2020,10 @@
     "sha256": "ef982698827e5ba30ea33815201f92830ba38db0873adda9cdf698c967f1dc71"
   },
   {
+    "path": "src/lib/documentSharedFields.ts",
+    "sha256": "a6eb483056e33dafeb3bdb88acb45fbd7b551f772e6bb90e7feb9e58d7bea7a4"
+  },
+  {
     "path": "src/lib/documentStorno.ts",
     "sha256": "97d34170d5951ae522ae1e79098f7b362c9988d144319cffdf475feeb982eaaa"
   },
@@ -2041,7 +2045,7 @@
   },
   {
     "path": "src/lib/documentTypeCatalog.ts",
-    "sha256": "d7b0a5a9b367ddf92f4c26fcdbd7a549c3d5dc2549c1b664ec92e7de74c23095"
+    "sha256": "2fdeccd17f19249cff5029c6b49e9fb26d1a3c95521d29446acd0dd40ba41ab2"
   },
   {
     "path": "src/lib/dropdownPosition.ts",
@@ -2129,7 +2133,7 @@
   },
   {
     "path": "src/lib/helpCenterCatalog.ts",
-    "sha256": "e6fe1214a00472e34e99120e878bb4fbc87e24cfe1fb4c34b30390d58caeb2da"
+    "sha256": "25a57142a03ecf4b8bccfb3019e09fba2c8bf0ee84be51ff33b9ffbfa1dd7b25"
   },
   {
     "path": "src/lib/helpContent.ts",
@@ -2265,7 +2269,7 @@
   },
   {
     "path": "src/lib/ocrAdditionalInformation.ts",
-    "sha256": "2acb8215c947c5414c280e8b4658076f15589087f2e919209d0587070f5724c1"
+    "sha256": "e218f4647afca932e8c4eed8bb95d6de06456cdab43b5248ec14e4fbe41cb998"
   },
   {
     "path": "src/lib/ocrApprovalRouting.ts",
@@ -2289,11 +2293,15 @@
   },
   {
     "path": "src/lib/ocrDocumentColumns.ts",
-    "sha256": "70c13592c15e4fc4301a6625555c423a6d73e9bdf1b666e1f0ee3b52124daa3f"
+    "sha256": "4970f048ed4712fdc5a93202b8b6be27ccf181ff87660c81a671c3662ba5a2c0"
   },
   {
     "path": "src/lib/ocrDocumentDelivery.ts",
     "sha256": "dc1bd3b0bd774f880dc1ea8eefb61ee3bceedf21ca9923a21e3d71a7e344609f"
+  },
+  {
+    "path": "src/lib/ocrDocumentLearning.ts",
+    "sha256": "7ecc3ca22a824137fb77f1d7004c535ac42cc87398f94c27bdf7ee0073057b7d"
   },
   {
     "path": "src/lib/ocrDocumentScope.ts",
@@ -2309,7 +2317,7 @@
   },
   {
     "path": "src/lib/ocrDocumentUpload.ts",
-    "sha256": "517bdf1dabcc60a208fa22ccf0031c9dd1d11ccf6d375b87672e7502796dba88"
+    "sha256": "7346f7a1ef8c59454e3c69270fa76580d8f1533084018d2caab71346a0bef429"
   },
   {
     "path": "src/lib/ocrDocumentWorkflow.ts",
@@ -2325,7 +2333,7 @@
   },
   {
     "path": "src/lib/ocrLearning.ts",
-    "sha256": "4953dd257799c072d0f2b1e526b0d6a39feba633e9356c1bb0f6c6693f2d8626"
+    "sha256": "129b159d2c2c01dae0b2089dac7d6718772de3e6455a8eeea4f18ed8d5a60f9f"
   },
   {
     "path": "src/lib/ocrLearningDocuments.ts",
@@ -2337,7 +2345,7 @@
   },
   {
     "path": "src/lib/ocrLearningStore.ts",
-    "sha256": "e7d98ce67d72f5f18ba57c3ed3a2e3bda972c7b07229c0f70301a3a3090935ca"
+    "sha256": "bc55df2ae5f87b389fe395b9ab0a2dcd5d6792d6cf20c9e68c0d09bdad13a874"
   },
   {
     "path": "src/lib/ocrMyTaskExamples.ts",
@@ -2529,7 +2537,7 @@
   },
   {
     "path": "src/lib/supabase.ts",
-    "sha256": "68d0e952f2b61839cc5f7dff35451433de766fd0de421c701bdb18cadd596ad8"
+    "sha256": "83f525ab75c91f9b489907f596d5f804dff4e1cc8f26c881476c8fb174e585f6"
   },
   {
     "path": "src/lib/systemTooltip.ts",
@@ -2845,11 +2853,11 @@
   },
   {
     "path": "tests/document-bulk-assignment.test.mjs",
-    "sha256": "781d45a44e76ec6cb143795334fe4a7252a93bd294d6f3e9ca828f2d032df285"
+    "sha256": "a2a15afde387008a9c7970874041eabe86e8298491d2afd5ab42b1be6a78d799"
   },
   {
     "path": "tests/document-detail-editing.test.mjs",
-    "sha256": "c2b033eef9f080991f4e281aca7972c5d72f82666f8eec8b98cc7cd83b698c38"
+    "sha256": "5d4b8f99fef3caddf1ef54ada99e4ba42e1ad52c45f09e491fc65606ccb13154"
   },
   {
     "path": "tests/document-detailed-digitization.test.mjs",
@@ -2872,8 +2880,12 @@
     "sha256": "43f7ec88b9e542a059d0eb31dac6b1dc0e318243aa6db1454ae4e489c178a0b8"
   },
   {
+    "path": "tests/document-field-alignment.test.mjs",
+    "sha256": "fdc11989290aa7b7aed7f36184cafed531352d889bf5b86edacbd5def543c869"
+  },
+  {
     "path": "tests/document-inline-editing.test.mjs",
-    "sha256": "562a2d6a3c7642f5951c899959c5a22dae8807fdb18220d175a8e0669af3affe"
+    "sha256": "e87d4ed91bcc317033c22f617fd0ed4ef90bd2c5b6803a93f51fa7433fade207"
   },
   {
     "path": "tests/document-inline-field-design.test.mjs",
@@ -2885,11 +2897,11 @@
   },
   {
     "path": "tests/document-issue-fix.test.mjs",
-    "sha256": "e5e08d18eae8421fda694ad35b13bff9fa47f5b225f31e18d108a11b1d660e0c"
+    "sha256": "89701840a846da3ec842af4ca90ffb8595b1e4c84217fb79b87f2ba2010b3cd6"
   },
   {
     "path": "tests/document-issue-table.test.mjs",
-    "sha256": "500a43bf7aa3938775efb01bda5d1dcfd2ba031b69673a1a2f1b162544995cb5"
+    "sha256": "c2b34ada37f70f4ac93e8b7b5643af769db695619f605f879e2f31d0f35c0f0b"
   },
   {
     "path": "tests/document-issues.test.mjs",
@@ -2917,7 +2929,7 @@
   },
   {
     "path": "tests/document-receipt-classification.test.mjs",
-    "sha256": "24fa56a5c799430343dbb770566679ca4ecee3cc2f5cb3252ede9cb8bc5ef7c7"
+    "sha256": "5d785af48fe93fc1a58ad20d67215bcc6dd348e7cd766ecb9af85a2ace74948d"
   },
   {
     "path": "tests/document-register-editor-actions.test.mjs",
@@ -3064,6 +3076,10 @@
     "sha256": "7858fa2e82715101c5fd18bdddba7b6a620b32c509fa78313b8b73c3c6094dbe"
   },
   {
+    "path": "tests/helpers/ocr-field-modules.mjs",
+    "sha256": "170359f8e5e31f14bc2e0d308cf3204c77ff4e3c4e1304ee3179ccbc7d97ed99"
+  },
+  {
     "path": "tests/important-notifications.test.mjs",
     "sha256": "efe523918c391cc34bec41bf6b9da0a3ff59e2e87b7d870688ce86ae5a57eb58"
   },
@@ -3137,15 +3153,15 @@
   },
   {
     "path": "tests/ocr-additional-information.test.mjs",
-    "sha256": "6fbde935e36263f565e6f88b45da3568c178e5b0c6e7641f516187ac7cbc2188"
+    "sha256": "71ce1fe49ae6e9abe931afc846463bf36f267b069fe56ce37bd2d4846f0adf1e"
   },
   {
     "path": "tests/ocr-approval-routing.test.mjs",
-    "sha256": "20d41ed1733315606182030963b9de5ce173eb67070a6e16a20ca48990eea6c0"
+    "sha256": "34f3d21a3f72e6bc1c8999f65ea65d37ecd9b7bcf3df73c77c462f77172468a4"
   },
   {
     "path": "tests/ocr-automatic-routing.test.mjs",
-    "sha256": "a6a4dfccd62e25fd1f14111e27edd7a0cc8572271735850c6227611ba5624f8b"
+    "sha256": "83f4bdf84d5e61acab96be8bbc290ec3276b07fdca1766a813413b73ecd48f71"
   },
   {
     "path": "tests/ocr-chat-related-objects.test.mjs",
@@ -3161,7 +3177,7 @@
   },
   {
     "path": "tests/ocr-document-type-editor.test.mjs",
-    "sha256": "f0b84899962c07f789a6f16ad31eb4bb6537a809e33b50792fdbaa34cfd4aa0c"
+    "sha256": "2832cd5b3140cb7abf945b2c2a042df6ab89b723625affcbf98c480ec6ea360b"
   },
   {
     "path": "tests/ocr-document-upload.test.mjs",
@@ -3185,15 +3201,15 @@
   },
   {
     "path": "tests/ocr-learning-rule-store.test.mjs",
-    "sha256": "de1dbdfc512856d56d2d10dae830104bcdd7f01062494caa9319c592e8c94aae"
+    "sha256": "e9ab036bd10922d0c9ef173194c1a2d5fcc7f6e1bafa61d45357cd266c1c2a8b"
   },
   {
     "path": "tests/ocr-learning-store.test.mjs",
-    "sha256": "02c531e9df9c555c710d9b758bd960917eaafc89198b9efa7312a11f35ac4f6d"
+    "sha256": "e8e15e9b510197146d66347261bcedce8de7c2d16b0097a2607a83702dc9860a"
   },
   {
     "path": "tests/ocr-learning.test.mjs",
-    "sha256": "9135cb10bcbdba0dfe184874e57427faf8c87b62e471a532a61c09f1124af1cd"
+    "sha256": "018ddc6ecd4874908e99f8cad799a1aff609c0eb7cb0d557cff3f4052b1287e9"
   },
   {
     "path": "tests/ocr-my-tasks.test.mjs",
@@ -3249,7 +3265,7 @@
   },
   {
     "path": "tests/ocr-unified-workflow.test.mjs",
-    "sha256": "c6c2f66a449003e1a044ad05df75aaaea1ac1840527a8b7243af43c9c693637f"
+    "sha256": "4385aa1f43c9a542daa9d0777a5c0ef70e6e5e69bfc0ced769db187ad0e1ecd5"
   },
   {
     "path": "tests/ocr-uploaded-document.test.mjs",

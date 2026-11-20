@@ -4,6 +4,12 @@ Užšaldyta V24 testavimo versija (žyma `v24`). Ji sukurta iš V23 šaltinių `
 
 V24 testavimas: https://albertborkovski-cmd.github.io/finansu-harmonija-v24/.
 
+## V24.1.3 stulpelių ryšiai (2026-11-20)
+
+Vartotojo patvirtintas siauras atnaujinimas pagal stulpelių auditą: vienodos dokumentų reikšmės OCR darbuotojo, klaidų, TeamLead ir dokumentų registruose; dokumento paskirtis Pirkimas / Pardavimas; kontrahento kodas iš organizacijos kontrahentų; vienodi sumų ir PVM stulpeliai; „Subtipas“ sąskaitų tipų nustatymuose. Buhalterio ir ADDINFO priskyrimai išlaikomi pakartojant OCR ir įtraukiami į aštuonių laukų mokymo taisykles. Skirtingos eilučių reikšmės nemokomos kaip viena bendra reikšmė.
+
+Pakeitimai išlaikyti V25. Ankstesnės žymos nepakeistos; nesusijusių V25 naujovių, vietinių duomenų ir raktų šiame pakete nėra. TypeScript, kompiliavimas ir visi 140 tikslinių testų praėjo. Pilname rinkinyje 1689 testai praėjo, 90 ankstesnių nesusijusių nesėkmių liko; naujų nesėkmių pavadinimų nėra.
+
 ## V24.0.3 pagalba (2026-11-19)
 
 Pridėtas pagrindinio meniu „Pagalba“ punktas ir atskirame skirtuke atidaromi „?“ paaiškinimai visose organizacijos nustatymų skiltyse. Instrukcijose yra 38 eksporto formatų laukų paaiškinimai, atskiri failo ir API žingsniai, Rivilė GAMA / ERP rakto bei ryšio kontrolė, penkios originalios FH ekranų nuotraukos, penki išoriniai importo mokomieji įrašai ir Site.pro klaida „Datos konfliktas prekei“. Išoriniai vaizdo įrašai nėra FH sąsajos demonstracija ir įkeliami tik naudotojui paspaudus.
